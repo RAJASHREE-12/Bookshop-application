@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>PhoneBook-App</name>
+=======
+	<name>PhoneBookApp</name>
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 	<comment></comment>
 	<projects>
 	</projects>

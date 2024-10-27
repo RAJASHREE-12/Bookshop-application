@@ -2,7 +2,10 @@ package com.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+<<<<<<< HEAD
 import java.sql.ResultSet;
+=======
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 
 import com.entity.User;
 
@@ -38,6 +41,7 @@ public class UserDAO {
 		return f;
 	}
 	
+<<<<<<< HEAD
 	public User loginUser(String email, String pass) 
 	{
 		User user=null;
@@ -66,3 +70,7 @@ public class UserDAO {
 	}
 
 }
+=======
+
+}
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db

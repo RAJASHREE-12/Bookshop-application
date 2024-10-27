@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 <%@page import="com.entity.User"%>
 <%@page import="com.conn.DbConnect"%>
+=======
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 <%@page import="java.sql.Connection"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -23,9 +26,12 @@
 <%@include file="component/navbar.jsp" %>
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 	<div class="container-fluid back-img text-center text-success">
 	<h1>Welcome to PhoneBook App</h1>
 	</div>

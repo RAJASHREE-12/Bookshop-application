@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <%@page import="com.entity.User"%>
+=======
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <a class="navbar-brand" href="index.jsp"><i class="fa-solid fa-phone"></i> PhoneBook</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,6 +21,7 @@
         <a class="nav-link " href="viewContact.jsp"><i class="fa-solid fa-eye"></i> View Contact</a>
       </li>
     </ul>
+<<<<<<< HEAD
     
     <%User user=(User)session.getAttribute("user");
     if(user == null) {
@@ -65,4 +69,11 @@
   </div>
 </div>
      <!-- Logout popup -->
+=======
+    <form class="form-inline my-2 my-lg-0">
+      <a href="login.jsp" class="btn btn-success"><i class="fa-solid fa-users"></i> Login</a>
+      <a href="register.jsp"class="btn btn-danger ml-2"><i class="fa-regular fa-user"></i> Register</a>
+    </form>
+  </div>
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 </nav>

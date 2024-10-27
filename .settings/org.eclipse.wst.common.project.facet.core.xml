@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <faceted-project>
+<<<<<<< HEAD
   <runtime name="apache-tomcat-9.0.89"/>
   <fixed facet="jst.web"/>
   <fixed facet="wst.jsdt.web"/>
@@ -7,4 +8,13 @@
   <installed facet="java" version="21"/>
   <installed facet="wst.jsdt.web" version="1.0"/>
   <installed facet="jst.web" version="4.0"/>
+=======
+  <runtime name="Apache Tomcat v9.0"/>
+  <fixed facet="wst.jsdt.web"/>
+  <fixed facet="java"/>
+  <fixed facet="jst.web"/>
+  <installed facet="java" version="21"/>
+  <installed facet="jst.web" version="4.0"/>
+  <installed facet="wst.jsdt.web" version="1.0"/>
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 </faceted-project>

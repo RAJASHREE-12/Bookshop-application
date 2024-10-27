@@ -16,6 +16,7 @@
 				<div class="card">
 					<div class="card-body">
 					<h4 class="text-center text-success">Login Page</h4>
+<<<<<<< HEAD
 					
 					<%
 					String InvalidMsg=(String)session.getAttribute("InvalidMsg");
@@ -42,12 +43,24 @@
 						<form action="Login" method="post">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Email address</label> <input name="email"
+=======
+						<form>
+							
+						
+						
+							<div class="form-group">
+								<label for="exampleInputEmail1">Email address</label> <input
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 									type="email" class="form-control" id="exampleInputEmail1"
 									aria-describedby="emailHelp" >
 								
 							</div>
 							<div class="form-group">
+<<<<<<< HEAD
 								<label for="exampleInputPassword1">Password</label> <input name="password"
+=======
+								<label for="exampleInputPassword1">Password</label> <input
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 									type="password" class="form-control" id="exampleInputPassword1"
 									>
 							<div class="text-center mt-2">

@@ -20,5 +20,9 @@
 	integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
 	crossorigin="anonymous" referrerpolicy="no-referrer" />
 	
+<<<<<<< HEAD
 <link rel="stylesheet" href="style.css">
 	
+=======
+<link rel="stylesheet" href="style.css">
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db

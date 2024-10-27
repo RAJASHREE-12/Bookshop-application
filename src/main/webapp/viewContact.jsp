@@ -9,12 +9,15 @@
 </head>
 <body>
 <%@include file="component/navbar.jsp" %>
+<<<<<<< HEAD
 <%
 if (user == null){
 	session.setAttribute("InvalidMsg","Login Please..");
 	response.sendRedirect("login.jsp");
 }
 %>
+=======
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 
 </body>
 </html>

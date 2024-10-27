@@ -6,13 +6,20 @@ public class User {
 	private String email;
 	private String password;
 	
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 	public User() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	
+<<<<<<< HEAD
 	
 	
+=======
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 	public User(String name, String email, String password) {
 		super();
 		this.name = name;
@@ -21,7 +28,10 @@ public class User {
 	}
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 	public int getId() {
 		return id;
 	}
@@ -46,6 +56,7 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+<<<<<<< HEAD
 
 
 
@@ -58,4 +69,10 @@ public class User {
 
 	
 	
+=======
+	
+	
+	
+
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 }

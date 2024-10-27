@@ -16,15 +16,21 @@
 				<div class="card">
 					<div class="card-body">
 					<h4 class="text-center text-success">Registartion Page</h4>
+<<<<<<< HEAD
 
 
 						<%
+=======
+					
+					<%
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 						String sucssMsg = (String) session.getAttribute("sucssMsg");
 						String errorMsg = (String) session.getAttribute("errorMsg"); // Added cast and semicolon
 						if (sucssMsg != null) {
 						%>
 						<p class="text-success text-center"><%=sucssMsg%></p>
 						<%
+<<<<<<< HEAD
 						session.removeAttribute("sucssMsg");
 						session.removeAttribute("errorMsg");
 						}
@@ -37,6 +43,10 @@
 
 
 
+=======
+						}
+						%>
+>>>>>>> 40f928e672fb890c2efc623c71ce8cdee193d0db
 						<form action="register" method="post">
 							<div class="form-group">
 								<label for="exampleInputEmail1">Enter Name</label> <input name="name"
